@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='flex justify-between w-8/12'>
+    <div className='flex justify-between'>
         <div>
             <img src="" alt="" />
             <p className='text-blue-500'>ZAKARIA HAMDINO</p>
