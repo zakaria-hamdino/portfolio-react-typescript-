@@ -2,7 +2,7 @@ import React from 'react'
 
 const Aboutme = () => {
   return (
-    <div className='pt-10 flex justify-between flex-col  px-[200px] h-[540px] '>
+    <div className='pt-10 flex justify-between flex-col  max-w-[1180px] w-full m-auto		 h-[540px]  ' id='Aboutme'>
         <div className='flex justify-between flex-col h-[120px]  '>
             <p className='text-[#429ADB] text-[10px]'>about me</p>
             <p className='font-Noto text-[30px]'>I am an enthusiastic web developer based in Morocco,with a rich experience of over 3 years in website </p>
