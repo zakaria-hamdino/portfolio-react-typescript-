@@ -4,7 +4,7 @@ import email from '../Images/email.png';
 import phone from '../Images/telephone.png'
 const Introduction = () => {
   return (
-    <div className='pt-16 bg-[#F6F8FA]' id='Introduction'>
+    <div className='pt-16 ' id='Introduction'>
       <div className='flex justify-between  max-w-[1180px] w-full m-auto '>
         <div className='flex justify-between flex-col	h-[280px] '>
           <div className='h-8 flex justify-between flex-col'>

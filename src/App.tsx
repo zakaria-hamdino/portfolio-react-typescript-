@@ -4,6 +4,7 @@ import './App.css';
 import './index.css';
 import Header from './components/Header';
 import Introduction from './components/Introduction';
+import Home from './components/Home';
 import Aboutme  from './components/Aboutme';
 import Services from './components/Services';
 import Studies from './components/Studies';
@@ -14,8 +15,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="flex flex-col ">
-        <Header />
-        <Introduction/>
+        <Home/>
         <Aboutme/>
         <Services/>
         <Studies/>
