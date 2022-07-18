@@ -10,6 +10,7 @@ import Services from './components/Services';
 import Studies from './components/Studies';
 import Expertise from './components/Skills-Experience';
 import { BrowserRouter } from 'react-router-dom';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Services/>
         <Studies/>
         <Expertise/>
+        <Footer/>
       </div>
     </BrowserRouter>
 
