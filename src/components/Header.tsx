@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import MyPdf from '../Files/Zakaria-Hamdino-CV.pdf';
 
 const Header = () => {
   const [currentTab, setCurrentTab] = useState("");
@@ -58,7 +59,7 @@ const Header = () => {
         >
           PORTFOLIO
         </Link>
-        <button>DOWNLOAD CV</button>
+        <a href={MyPdf} download="Zakaria-Hamdino-CV.pdf" className="px-4  bg-transparent outline-none border-2 border-[#009bdf] rounded text-[#009bdf] font-medium active:scale-95 hover:bg-[#009bdf] hover:text-white hover:border-transparent focus:bg-[#009bdf] focus:text-white focus:border-transparent focus:ring-2 focus:ring-[#009bdf] focus:ring-offset-2 disabled:bg-gray-400/80 disabled:shadow-none disabled:cursor-not-allowed transition-colors duration-200"> Download CV </a>
       </div>
     </div>
   );
