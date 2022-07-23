@@ -27,7 +27,7 @@ const Introduction = () => {
           </div>
         </div>
         <div>
-          <img src={profilepic} alt='profile picture of the person'/>
+          
         </div>
       </div>
     </div>
