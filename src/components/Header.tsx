@@ -5,7 +5,7 @@ import MyPdf from '../Files/Zakaria-Hamdino-CV.pdf';
 const Header = () => {
   const [currentTab, setCurrentTab] = useState("");
   return (
-    <div className="flex justify-between max-w-[1180px] w-full m-auto pt-[15px]">
+    <div className="flex justify-between max-w-[1180px] w-full m-auto pt-[15px] ">
       <div>
         <img src="" alt="" />
         <p className="text-blue-500">ZAKARIA HAMDINO</p>
