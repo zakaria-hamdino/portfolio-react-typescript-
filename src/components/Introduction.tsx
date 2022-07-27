@@ -6,7 +6,7 @@ import backgroundpicture from '../Images/background-profile-picture.png'
 
 const Introduction = () => {
   return (
-    <div className='pt-16  relative ' id='Introduction'>
+    <div className='w-full pt-16  relative  px-[5%]' id='Introduction'>
       <div className='flex justify-between   w-full  '>
         <div className='flex justify-between flex-col	h-[480px] '>
           <div className=' flex justify-between flex-col'>
@@ -15,7 +15,7 @@ const Introduction = () => {
           </div>
           <div> 
             <p className='text-4xl md:text-6xl font-Noto ' >Zakaria Hamdino</p>
-            <p className='text-2xl text-[#758499]  md:text-[#758499] text-4xl font-Noto mt-2'>Web Developper</p>
+            <p className='text-2xl text-[#758499] md:text-4xl font-Noto mt-2'>Web Developper</p>
           </div>
           <div className='h-20 flex justify-between flex-col '>
             <div className='flex'>
@@ -30,8 +30,8 @@ const Introduction = () => {
         </div>
         <div>
         <div className='top-0 right-0 absolute w-full h-full '>
-            <img src={profilepic} className=' top-[130px] z-10 right-[5%] absolute w-[30%]' alt='profile picture of the person'/>
-            <img className=' w-[60%] right-[-100px] absolute md:top-[-15px] md:w-[70%] md:right-[-220px]  ' src={backgroundpicture} alt='profile picture of the person'/>
+            <img src={profilepic} className=' w-[30%] right-[20px] top-[160px] md:top-[130px] z-10 md:right-[5%] absolute md:w-[20%]' alt='profile picture of the person'/>
+            <img className='right-[-120px] top-[80px] w-[60%] absolute md:top-[-15px] md:w-[45%] md:right-[-220px]  ' src={backgroundpicture} alt='profile picture of the person'/>
         </div>
         </div>
       </div>

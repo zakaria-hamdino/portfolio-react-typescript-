@@ -15,7 +15,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <BrowserRouter>
-      <div className="flex flex-col  px-[5%] bg-[#F6F8FA]">
+      <div className="flex flex-col  bg-[#F6F8FA]">
         <Home/>
         <Aboutme/>
         <Services/>
