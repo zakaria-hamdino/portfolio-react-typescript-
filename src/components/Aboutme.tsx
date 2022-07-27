@@ -2,10 +2,10 @@ import React from 'react'
 
 const Aboutme = () => {
   return (
-    <div className='pt-10  pb-20  max-w-[1180px] w-full m-auto h-full	 overflow-hidden h-screen' id='Aboutme'>
+    <div className='bg-red-600 md:bg-blue-600 pt-10  pb-20  w-full  overflow-hidden h-screen' id='Aboutme'>
         <div className='flex justify-between flex-col    '>
             <h1 className='text-[#429ADB] text-[20px] '>about me</h1>
-            <p className='font-Noto text-[50px] '>I am an enthusiastic web developer based in Morocco,with a rich experience of over 3 years in website </p>
+            <p className='font-Noto text-[50px] '>I am an enthusiastic web developer based in Morocco,with a rich experience of over 1 years in website </p>
         </div>
         <div className='flex justify-between  mt-[80px]'>
             <p className=' font-Noto w-[300px] text-[30px] text-[#429ADB] '> A clean code  beautiful websites</p>

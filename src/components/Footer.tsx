@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='max-w-[1180px] w-full m-auto flex pt-[120px] items-center pb-[90px]'  id='contact'>
+    <div className=' w-full  flex pt-[120px] items-center pb-[90px]'  id='contact'>
         <div className='flex flex-col items-center	'>
             <h1 className='text-[#7A85A7] text-[20px] '>Based in Morocco,Working worldwide.</h1>
             <p className='text-8xl font-Noto underline pt-[10px]'>Get In Touch</p>

@@ -10,19 +10,19 @@ const Skills = () => {
         <h1 className='text-[60px] font-Noto '>Skills</h1>
         <div className='h-[340px] flex flex-col justify-between pt-[50px] '>
             <div className='w-[320px]'>
-                <p className='text-[#758499] text-[17px] '>JavaScript</p>
+                <p className='text-[#758499] text-[17px] '>REACT</p>
                 <div className='rounded-full h-[25px] ' style={background1}> <p className='text-[14px] text-white ml-[75%] '>85%</p></div>
             </div>
             <div>
-                <p className='text-[#758499] text-[17px] '>JavaScript</p>
+                <p className='text-[#758499] text-[17px] '>HTML</p>
                 <div className='rounded-full h-[25px]  ' style={background2}><p className='text-[14px] text-white ml-[85%] '>95%</p></div>
             </div>
             <div>
-                <p className='text-[#758499] text-[17px] '>JavaScript</p>
+                <p className='text-[#758499] text-[17px] '>CSS</p>
                 <div className='rounded-full h-[25px] ' style={background3}><p className='text-[14px] text-white ml-[65%]'>75%</p></div>
             </div>
             <div>
-                <p className='text-[#758499] text-[17px]  '>JavaScript</p>
+                <p className='text-[#758499] text-[17px]  '>PHP</p>
                 <div className=' rounded-full h-[25px]  ' style={background4}><p className='text-[14px] text-white ml-[70%]'>80%</p></div>
             </div>
         </div>
