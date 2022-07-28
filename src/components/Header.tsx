@@ -5,10 +5,10 @@ import MyPdf from '../Files/Zakaria-Hamdino-CV.pdf';
 const Header = () => {
   const [currentTab, setCurrentTab] = useState("");
   return (
-    <div className="flex justify-between px-[5%]  w-full  pt-[15px]   ">
+    <div className="flex justify-between px-[40px]  w-full  pt-[15px]   ">
       <div>
         <img src="" alt="" />
-        <p className="text-blue-500">ZAKARIA HAMDINO</p>
+        <p className="text-blue-500 ">ZAKARIA HAMDINO</p>
       </div>
       <div className="space-x-4 hidden md:flex  ">
         <Link

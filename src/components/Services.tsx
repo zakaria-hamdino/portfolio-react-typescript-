@@ -5,8 +5,8 @@ import development from '../Images/development.png';
 import phone from '../Images/phone.png';
 const Services = () => {
   return (
-    <div className='pt-10 bg-[#F6F8FA] h-screen px-[5%] pb-[70px]' id='Services'>
-        <div className='w-full '>
+    <div className='pt-10 bg-[#F6F8FA] h-full  px-[5%] pb-[70px]' id='Services'>
+        <div className='w-full'>
             <div>
                 <p className='text-[30px] font-Noto md:text-[60px] '> What I do</p>
                 <div className='flex justify-between'>

@@ -4,7 +4,7 @@ import Skills from './Skills'
 
 const Expertise  = () => {
   return (
-    <div className='flex justify-between  h-screen w-full  bg-white  mt-[50px]' id='Expertise'>
+    <div className='flex justify-between h-full  w-full  bg-white  pt-[50px]' id='Expertise'>
         <Skills/>
         <Experience/>
     </div>
